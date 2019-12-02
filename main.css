@@ -11,8 +11,10 @@ header {
     align-items: center;
     background-image: url(/img/havana_6-UX.webp);
     height: 300px;
-
+    background-attachment: fixed;
+    margin: auto;
 }
+
 
 
 
@@ -58,6 +60,7 @@ p {
 .primer {
     width: 100%;
     border-radius: 15px;
+
 }
 
 .card {
@@ -72,23 +75,13 @@ p {
     font-size: 2rem;
 }
 
-@media (min-width:760px) {
-    .main {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        flex-direction: row;
-        flex-shrink: unset;
-    }
 
-    .secciones {
-        margin-top: 10px;
-        border: 2px solid;
-        width: 30%;
-        background-color: rgb(245, 205, 121);
+.secciones {
+    margin-top: 10px;
+    border: 2px solid;
+    width: 30%;
+    background-color: rgb(245, 205, 121);
 
-        height: fit-content;
-    }
+    height: fit-content;
 }
-
-@media (max-width:1024px 1366px) {}
+}
