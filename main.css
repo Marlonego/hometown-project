@@ -9,7 +9,7 @@ body {
 
 header {
     align-items: center;
-    background-image: url(/img/havana_6-UX.webp);
+    background-image: url(./img/havana_6-UX.webp);
     height: 300px;
     background-attachment: fixed;
     margin: auto;
