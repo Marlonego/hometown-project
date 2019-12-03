@@ -9,6 +9,8 @@ body {
     margin: auto;
 }
 
+
+/* HEADER STYLING------------------------------------------ */
 header {
     align-items: center;
     background-image: url(./img/havana_6-UX.webp);
@@ -19,6 +21,7 @@ header {
 
 }
 
+/* TEXT STYLING */
 
 .first-p {
     font-family: sans-serif;
@@ -37,7 +40,14 @@ header {
     left: 10px;
 }
 
-.cabecero {
+p {
+    margin: 0.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling Headers-------------------------------------------------- */
+
+.main-header {
     font-size: 3rem;
     color: #2c3e50;
     font-family: 'Love Ya Like A Sister',
@@ -45,44 +55,6 @@ header {
     background-color: rgba(255, 255, 255, 0.6);
     display: flex;
     justify-content: left;
-
-}
-
-.main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-
-}
-
-.blocks {
-    margin-top: 30px;
-    border: 2px solid;
-    width: 100vp;
-    background-color: rgb(245, 205, 121);
-    border-radius: 5px;
-    /* height: fit-content; */
-}
-
-.blocks-2 {
-    margin-top: 30px;
-    border: 2px solid;
-    width: 100vp;
-
-    border-radius: 5px;
-    /* height: fit-content; */
-}
-
-p {
-    margin: 0.4rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.primer {
-    width: 100%;
-    border-radius: 5px;
 
 }
 
@@ -105,33 +77,58 @@ p {
 }
 
 
-/* .secciones {
-    margin-top: 10px;
+
+/* FLEX BOX STYLING */
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+}
+
+/* STYLING SECTIONS FROM THE FLEX CONTAINER ---------------------------------------*/
+
+.blocks {
+    margin-top: 30px;
     border: 2px solid;
-    width: 30%;
+    width: 100vp;
     background-color: rgb(245, 205, 121);
+    border-radius: 5px;
+    /* height: fit-content; */
+}
 
-    height: fit-content;
-} */
+.blocks-2 {
+    margin-top: 30px;
+    border: 2px solid;
+    width: 100vp;
 
+    border-radius: 5px;
+    /* height: fit-content; */
+}
 
+/* STYLING IMAGES------------------------------------------------------------- */
+.primer {
+    width: 100%;
+    border-radius: 5px;
 
+}
 
+/* here Style the navigation menu------------------------------------------------ */
 
-
-/* Style the navigation menu */
 .topnav {
     overflow: hidden;
     background-color: #333;
     position: relative;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
+/* Hide the links inside the navigation menu (except for logo/home)----------------- */
 .topnav #myLinks {
     display: none;
 }
 
-/* Style navigation menu links */
+/* Style navigation menu links----------------------------------------- */
 .topnav a {
     color: white;
     padding: 14px 16px;
@@ -141,7 +138,7 @@ p {
 
 }
 
-/* Style the hamburger menu */
+/* Style the hamburger menu-----------------------------------------*/
 .topnav a.icon {
     background: black;
     display: block;
@@ -150,18 +147,20 @@ p {
     top: 0;
 }
 
-/* Add a grey background color on mouse-over */
+/* Add a grey background color on mouse-over------------------------- */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
-/* Style the active link (or home/logo) */
+/* Style the active link (or home/logo) -----------------------------*/
 .active {
     background-color: #26de81;
     color: white;
     font-size: 2rem;
 }
+
+/* STYLING EVERYTHING FROM THE FOOTER------------------------------------- */
 
 button {
     display: flex;
@@ -178,6 +177,8 @@ button a {
 
     color: antiquewhite;
 }
+
+/* HERE WE STYLING THE LOVE-HATE FROM THE BUTTON----------------------------------- */
 
 button:link {
     color: darkkhaki;
@@ -229,6 +230,7 @@ footer ul {
     justify-items: flex-start;
 }
 
+/* STYLING THE SOCIAL MEDIA ICON FROM THE FOOTER */
 .imag {
     width: 50px;
 }
