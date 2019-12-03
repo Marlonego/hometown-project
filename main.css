@@ -64,6 +64,15 @@ header {
     /* height: fit-content; */
 }
 
+.blocks-2 {
+    margin-top: 30px;
+    border: 2px solid;
+    width: 100vp;
+    background-color: rgb(245, 205, 121);
+    border-radius: 5px;
+    /* height: fit-content; */
+}
+
 p {
     margin: 0.4rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -168,12 +177,26 @@ button a {
     color: antiquewhite;
 }
 
+button:link {
+    color: darkkhaki;
+}
+
+button:visited {
+    color: lime;
+}
+
 button:hover {
     color: chartreuse;
-    background-color: rgb(0, 0, 0);
-    width: 150px;
+    background-color: rgb(219, 34, 34);
+
 
 }
+
+button:active {
+    background-color: yellow;
+    width: 150px;
+}
+
 
 
 
@@ -214,4 +237,4 @@ footer ul {
         width: 100vp;
         background-color: rgb(245, 205, 121);
         border-radius: 5px;
-    }
+        /* height: fit-content; */
