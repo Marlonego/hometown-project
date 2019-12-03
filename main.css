@@ -94,14 +94,14 @@ p {
 }
 
 
-.secciones {
+/* .secciones {
     margin-top: 10px;
     border: 2px solid;
     width: 30%;
     background-color: rgb(245, 205, 121);
 
     height: fit-content;
-}
+} */
 
 
 
@@ -168,16 +168,50 @@ button a {
     color: antiquewhite;
 }
 
-hover:button {
+button:hover {
     color: chartreuse;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+
 }
+
+
 
 footer ul li a {
     color: aliceblue;
     text-decoration: none;
 
+
 }
 
-.last-h {
-    col
+footer ul {
+    display: flex;
+    justify-content: space-evenl;
+    align-items: center;
 }
+
+/* .last-h {
+    col
+} */
+
+@media (min-width: 768px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+
+    .blocks {
+        width: 30%;
+        border-radius: 20px;
+    }
+
+    .blocks-2 {
+        margin-top: 30px;
+        border: 2px solid;
+        width: 100vp;
+        background-color: rgb(245, 205, 121);
+        border-radius: 5px;
+    }
