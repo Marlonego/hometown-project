@@ -231,6 +231,7 @@ footer ul {
 }
 
 /* STYLING THE SOCIAL MEDIA ICON FROM THE FOOTER */
+
 .imag {
     width: 50px;
 }
@@ -239,6 +240,9 @@ img:hover {
     /* background-color: aliceblue; */
 
 }
+
+
+/* USING MEDIA  QUIRES FOR DESKTOP DESING---------------------------------------------- */
 
 @media (min-width: 768px) {
     .main {
