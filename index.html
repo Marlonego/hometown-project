@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Havana</title>
 
-    <!-- <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
 
     <!-- Google Fonts -->
@@ -20,43 +20,42 @@
 </head>
 
 <body>
-    <nav id="nave">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-        <ul class="nav-link">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Project</a></li>
-        </ul>
-    </nav>
-    <span class="open-slide">
-        <a onclick="openSideMenu()">
-            <svg id="svg" width="30" height="30">
-                <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
-                <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
-                <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
-            </svg>
-        </a>
-    </span>
+    <!-- Scripting the nav bar here  -->
     <script>
-        const sideMenu = document.getElementById("nave")
-
-        function openSideMenu() {
-            if (sideMenu.style.display === "block") {
-                sideMenu.style.display = "none"
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
             } else {
-                sideMenu.style.display = "block"
+                x.style.display = "block";
             }
         }
     </script>
-    <header>
 
+    <header>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active">Logo</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="#news">Home</a>
+                <a href="#contact">Other cities</a>
+                <a href="#about">About</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
 
         <h1 class="cabecero">Havana Queen</h1>
 
     </header>
 
-    <h1 class="havanna">Welcome to Havana</h1>
+    <h1 class="havana">Welcome to Havana</h1>
     <p>
         La Habana es la capital de la República de Cuba, su urbe más grande, el principal puerto, su centro
         económico-cultural y su principal polo turístico. Es la ciudad más poblada del país, con una población
