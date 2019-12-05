@@ -42,7 +42,12 @@ header {
 
 p {
     margin: 0.4rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bitter',
+        serif;
+}
+
+.second {
+    color: #ddd;
 }
 
 /* Styling Headers-------------------------------------------------- */
@@ -75,6 +80,7 @@ p {
     display: block;
     border-radius: 200px;
 }
+
 
 
 
@@ -244,7 +250,7 @@ img:hover {
 
 /* USING MEDIA  QUIRES FOR DESKTOP DESING---------------------------------------------- */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .main {
         display: flex;
         flex-wrap: wrap;
@@ -260,9 +266,9 @@ img:hover {
 
     .blocks-2 {
         margin-top: 30px;
-        border: 2px solid;
-        width: 100vp;
-        background-color: #2bcbba;
+
+        width: 30%;
+
         border-radius: 5px;
 
     }
@@ -272,5 +278,23 @@ img:hover {
         color: white;
     }
 
+    .cities-header {
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Libre Baskerville',
+            serif;
+        border: 2px #2c3e50 solid;
+
+        display: flex;
+        border-radius: 10px;
+
+        justify-content: center;
+
+    }
+
+
 
 }
+
+/*  i have done accidentally already a desing for desktop but u van keep still making a good layout for it  */
+/* for the responsive desing for the desktop part, they should stay all as flex and looking as a row  */
