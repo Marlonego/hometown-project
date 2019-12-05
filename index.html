@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Havana</title>
+
     <!-- LINK THE TWO CSS FILE -->
+
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="img.css">
 
     <!-- Google Fonts -->
 
@@ -18,6 +23,8 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Libre+Baskerville|Radley&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -45,9 +52,9 @@
             <a href="#home" class="active">Beyond the Dream</a>
             <!-- Navigation links (hidden by default) -->
             <div id="myLinks">
-                <a href="#news">Home</a>
+                <a href="#places">Places to eat</a>
                 <a href="#city">Other cities</a>
-                <a href="#about">About</a>
+                <a href="#foot">Contact</a>
             </div>
             <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -60,19 +67,25 @@
     </header>
     <!-- HERE START ALL THE REST OF THE WEB PAGE -->
     <h1 class="havana">Welcome to Havana</h1>
-    <p class="first-p">
-        La Habana es la capital de la República de Cuba, su urbe más grande, el principal puerto, su centro
-        económico-cultural y su principal polo turístico. Es la ciudad más poblada del país, con una población
-        de
-        2 106 146 habitantes según datos de 2012,4​ y la tercera más poblada de la región del Caribe. Como
-        capital
-        de Cuba, la ciudad es la sede oficial de los órganos superiores del Estado y el Gobierno cubano, de
-        todos
-        los organismos centrales y de casi la totalidad de empresas y asociaciones de ámbito nacional. Además,
-        reúne la mayor cantidad de sucursales y casas matrices de las entidades extranjeras radicadas en Cuba.
-    </p>
+
+    <section class="main-p">
+        <p class="first-p">
+            La Habana es la capital de la República de Cuba, su urbe más grande, el principal puerto, su centro
+            económico-cultural y su principal polo turístico. Es la ciudad más poblada del país, con una población
+            de
+            2 106 146 habitantes según datos de 2012,4​ y la tercera más poblada de la región del Caribe. Como
+            capital
+            de Cuba, la ciudad es la sede oficial de los órganos superiores del Estado y el Gobierno cubano, de
+            todos
+            los organismos centrales y de casi la totalidad de empresas y asociaciones de ámbito nacional. Además,
+            reúne la mayor cantidad de sucursales y casas matrices de las entidades extranjeras radicadas en Cuba.
+
+        </p>
+    </section>
+
     <!-- START ALL THE FLEX BOX, ALL THE PLACE TO EAT SECTIONS------------- ------------------ -->
-    <h1 class="havana" class="card">Best places to eat</h1>
+
+    <h1 id="places" class="havana" class="card">Best places to eat</h1>
     <section class="main">
         <section class="blocks">
             <img src="./img/bodegita.jpg" class=" primer">
@@ -150,9 +163,93 @@
         </section>
 
     </section>
+
+
+    <!-- ------------------------------OTHER CITIES TO VISIT-------------------------------------- -->
+
+    <section class="main-2">
+        <section class="box">
+            <section class="blocks-2">
+
+                <img src="./img/vinales.jpg" alt="vinales" class="vinales">
+
+            </section>
+            <section>
+                <p class="city-p"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, ex suscipit
+                    corrupti
+                    assumenda
+                    accusantium
+                    nulla hic, illo quia harum sint natus reprehenderit nam magnam sed, amet incidunt necessitatibus
+                    earum?
+                    Ipsa.
+                </p>
+            </section>
+
+        </section>
+    </section>
+    <section class="main-2">
+        <section class="box">
+            <section class="blocks-2">
+
+                <img src="./img/vinales.jpg" alt="vinales" class="vinales">
+
+            </section>
+            <section>
+                <p class="city-p"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, ex suscipit
+                    corrupti
+                    assumenda
+                    accusantium
+                    nulla hic, illo quia harum sint natus reprehenderit nam magnam sed, amet incidunt necessitatibus
+                    earum?
+                    Ipsa.
+                </p>
+            </section>
+
+        </section>
+    </section>
+    <section class="main-2">
+        <section class="box">
+            <section class="blocks-2">
+
+                <img src="./img/vinales.jpg" alt="vinales" class="vinales">
+
+            </section>
+            <section>
+                <p class="city-p"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, ex suscipit
+                    corrupti
+                    assumenda
+                    accusantium
+                    nulla hic, illo quia harum sint natus reprehenderit nam magnam sed, amet incidunt necessitatibus
+                    earum?
+                    Ipsa.
+                </p>
+            </section>
+
+        </section>
+    </section>
+    <section class="main-2">
+        <section class="box">
+            <section class="blocks-2">
+
+                <img src="./img/vinales.jpg" alt="vinales" class="vinales">
+
+            </section>
+            <section>
+                <p class="city-p"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, ex suscipit
+                    corrupti
+                    assumenda
+                    accusantium
+                    nulla hic, illo quia harum sint natus reprehenderit nam magnam sed, amet incidunt necessitatibus
+                    earum?
+                    Ipsa.
+                </p>
+            </section>
+
+        </section>
+    </section>
     <!-- HERE START THE FOOTER------------------------------------------------- -->
 
-    <footer>
+    <footer id="foot">
 
         <!-- UL FROM THE FOOTER -------------------------------------------------------- -->
 
@@ -165,10 +262,12 @@
 
         <!-- STYLIN THE SOCIAL MEDIA ICONS  -->
         <ul class="social">
-            <li><img src="./img/fb.jpg" class="imag"></li>
-            <li><img src="./img/174855.png" class="imag"></li>
-            <li><img src="./img/YouTube_icon.png" class="imag"></li>
+            <li><img src="./img/fb.jpg" class="media"></li>
+            <li><img src="./img/174855.png" class="media"></li>
+            <li><img src="./img/YouTube_icon.png" class="media"></li>
         </ul>
+
+
         <button><a href="#"><b> Scroll up</b></a></button>
         <h2 class="last-h">What are you waiting for ?</h2>
     </footer>

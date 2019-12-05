@@ -21,34 +21,6 @@ header {
 
 }
 
-/* TEXT STYLING */
-
-.first-p {
-    font-family: sans-serif;
-    font-size: 18px;
-
-    /* background-color: rgba(255, 255, 255, 0.6); */
-    border-radius: 5px;
-    display: list-item;
-    width: 100vp;
-    color: white;
-}
-
-.texto {
-    position: absolute;
-    top: 0px;
-    left: 10px;
-}
-
-p {
-    margin: 0.4rem;
-    font-family: 'Bitter',
-        serif;
-}
-
-.second {
-    color: #ddd;
-}
 
 /* Styling Headers-------------------------------------------------- */
 
@@ -78,7 +50,7 @@ p {
     border: 2px #2c3e50 solid;
     background-color: #e15f41;
     display: block;
-    border-radius: 200px;
+    border-radius: 10px;
 }
 
 
@@ -94,6 +66,7 @@ p {
 
 }
 
+
 /* STYLING SECTIONS FROM THE FLEX CONTAINER ---------------------------------------*/
 
 .blocks {
@@ -103,35 +76,46 @@ p {
     background-color: rgb(245, 205, 121);
     border-radius: 5px;
     /* height: fit-content; */
+    box-shadow: #26de81;
 }
 
 .blocks-2 {
     margin-top: 30px;
-    border: 2px solid;
+
     width: 100vp;
 
     border-radius: 5px;
     /* height: fit-content; */
 }
 
-/* STYLING IMAGES------------------------------------------------------------- */
-.primer {
-    width: 100%;
-    border-radius: 5px;
+.main-2 {
+    display: flex;
+    justify-content: center;
 
 }
 
-/* here Style the navigation menu------------------------------------------------ */
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* -----------------here Style the navigation menu------------------------------------------------ */
 
 .topnav {
     overflow: hidden;
     background-color: #333;
     position: relative;
+
+
 }
 
 /* Hide the links inside the navigation menu (except for logo/home)----------------- */
 .topnav #myLinks {
     display: none;
+
 }
 
 /* Style navigation menu links----------------------------------------- */
@@ -142,6 +126,7 @@ p {
     font-size: 17px;
     display: block;
 
+
 }
 
 /* Style the hamburger menu-----------------------------------------*/
@@ -151,6 +136,8 @@ p {
     position: absolute;
     right: 0;
     top: 0;
+
+
 }
 
 /* Add a grey background color on mouse-over------------------------- */
@@ -175,6 +162,8 @@ button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: auto;
     background-color: darkblue;
+    transition: 0.5s;
+
 
 }
 
@@ -182,6 +171,7 @@ button a {
     text-decoration: none;
 
     color: antiquewhite;
+    transition: 0.5s;
 }
 
 /* HERE WE STYLING THE LOVE-HATE FROM THE BUTTON----------------------------------- */
@@ -198,6 +188,7 @@ button:visited {
 button:hover {
     color: chartreuse;
     background-color: rgb(219, 34, 34);
+    transform: rotate(360ged);
 
 
 }
@@ -227,7 +218,16 @@ footer ul {
 
 .last-h {
     color: #ddd;
-    display: inline;
+    display: block;
+    text-align: center;
+    font-family: 'Righteous',
+        cursive;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.last-h:hover {
+    transform: scale(1.2);
 }
 
 .social {
@@ -238,63 +238,21 @@ footer ul {
 
 /* STYLING THE SOCIAL MEDIA ICON FROM THE FOOTER */
 
-.imag {
+.media {
     width: 50px;
-}
-
-img:hover {
-    /* background-color: aliceblue; */
-
-}
-
-
-/* USING MEDIA  QUIRES FOR DESKTOP DESING---------------------------------------------- */
-
-@media screen and (min-width: 768px) {
-    .main {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-    }
-
-    .blocks {
-        width: 30%;
-        border-radius: 20px;
-    }
-
-    .blocks-2 {
-        margin-top: 30px;
-
-        width: 30%;
-
-        border-radius: 5px;
-
-    }
-
-
-    .second {
-        color: white;
-    }
-
-    .cities-header {
-        text-align: center;
-        font-size: 2rem;
-        font-family: 'Libre Baskerville',
-            serif;
-        border: 2px #2c3e50 solid;
-
-        display: flex;
-        border-radius: 10px;
-
-        justify-content: center;
-
-    }
-
 
 
 }
+
+.media:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+
+}
+
+
+
+
 
 /*  i have done accidentally already a desing for desktop but u van keep still making a good layout for it  */
 /* for the responsive desing for the desktop part, they should stay all as flex and looking as a row  */
