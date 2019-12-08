@@ -163,6 +163,9 @@ button {
     margin-left: auto;
     background-color: darkblue;
     transition: 0.5s;
+    position: absolute;
+    right: 40px;
+
 
 
 }
@@ -176,24 +179,26 @@ button a {
 
 /* HERE WE STYLING THE LOVE-HATE FROM THE BUTTON----------------------------------- */
 
-button:link {
+.up:link {
     color: darkkhaki;
     width: 150px;
+
 }
 
-button:visited {
+.up:visited {
     color: lime;
 }
 
-button:hover {
+.up:hover {
     color: chartreuse;
-    background-color: rgb(219, 34, 34);
-    transform: rotate(360ged);
+    background-color: rgb(79, 246, 1);
+    transform: rotate(360deg);
+
 
 
 }
 
-button:active {
+.up:active {
     background-color: yellow;
 
 }
@@ -224,6 +229,7 @@ footer ul {
         cursive;
     font-size: 2rem;
     transition: 0.5s;
+    margin-top: 100px;
 }
 
 .last-h:hover {
@@ -233,7 +239,7 @@ footer ul {
 .social {
     display: flex;
     justify-content: space-evenly;
-    justify-items: flex-start;
+    /* justify-items: flex-start; */
 }
 
 /* STYLING THE SOCIAL MEDIA ICON FROM THE FOOTER */
@@ -249,6 +255,24 @@ footer ul {
     transition: 0.5s;
 
 }
+
+.up {
+
+    border: 3px black solid;
+    width: 60px;
+    opacity: 0.9;
+    border-radius: 100px;
+    margin-left: auto;
+    transition: 0.5s;
+    position: fixed;
+    top: 70%;
+    right: 10px;
+    left: 85%;
+
+
+
+}
+
 
 
 

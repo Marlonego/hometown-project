@@ -82,5 +82,14 @@
         height: 50vh;
     }
 
+    button {
+        position: fixed;
+        top: 80%;
+        bottom: 0;
+        left: 85%;
+        /* right: 10%; */
+        border-radius: 100px;
+    }
+
 
 }
